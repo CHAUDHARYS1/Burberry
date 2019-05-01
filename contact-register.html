@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Burberry | Contact | Register</title>
+<!-- CSS LINKS -->
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/responsive.css">
+
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto" rel="stylesheet">
+<style type="text/css">
+
+</style>
+	
+	<script>
+
+</script>
+	
+</head>
+
+<body onload="startTime()">
+	<div class="navBar">
+  	   	<div id="logo">
+        	<a href="index.html"><img src="../images/burberry-logo.png" alt="logo" height="50"></a>
+        </div>
+    	<div class="navigation-links"  id="myTopnav">
+        	<a href="Shop.html" class="left">Shop</a>
+           	<a href="Location.html" class="left">Location</a>
+        	<a href="News.html" class="left">News</a>
+            <a href="cart.html" class="right">Cart(0)</a>
+           	<a href="About.html" class="right">About</a>
+            <a href="contact-register.html" class="right">Contact</a>
+        	<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </div>
+	<div class="contest-ends-in">Contest Ends in:</div>
+	<div id="txt"></div>
+	
+    <div class="row">
+        <div class="first">
+            <form action="Loser.html">
+                <div class="register">
+                    <h1>Contest Registeration!</h1>
+                    <p>Sign up to be one of winner of <br>  Burberry Handbags! You choose the designs!</p>
+                </div>
+                <div class="first-name">
+                  <p><strong>Profile</strong></p>	
+                  <input type="text" placeholder="First Name" class="first-name-input" required>
+                  <input type="text" placeholder="Middle Name (Optional)" class="first-name-input" >
+                  <input type="text" placeholder="Last Name" class="first-name-input" required>
+                  <p><strong>Email Address</strong></p>	
+                  <input type="email" placeholder="Email" class="first-name-input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+				  <p><strong>Password</strong></p>
+				  <input type="password"  placeholder="Password" pattern=".{6,}" required name="Six or more characters" class="first-name-input">
+					
+				  <input type="password"  placeholder="Confirm Password" pattern=".{6,}" required name="Six or more characters" class="first-name-input">
+                  <p><strong>Location</strong></p>	
+                  <input type="text" placeholder="State" class="first-name-input" required>
+                  <input type="text" placeholder="City" class="first-name-input" required>
+                  <input type="text" placeholder="Zip" class="first-name-input" required>
+			
+				  
+				  
+					
+                  <p><strong>Phone</strong></p>	
+                  <input type="text" placeholder="224-410-5089" class="first-name-input">
+                  <br>
+					
+                  <input type="submit" placeholder="Submit"  class="submit"> 
+               </div>
+            </form>
+        </div>
+		<div class="vl"></div>
+   		<div class="second">
+      		<form action="thank-you.html">
+                <div class="contact-us">
+                    <h1>Contact Us</h1>
+                    <p>Fill out the form to get in contact with us!<br>This is also our support system.</p>
+                </div>
+                <div class="first-name">
+                <p><strong>Profile</strong></p>
+                  <input type="text" placeholder="First Name" class="first-name-input" required>
+					
+                  <input type="text" placeholder="Middle Name (Optional)" class="first-name-input" >
+					
+                  <input type="text" placeholder="Last Name" class="first-name-input" required>
+					
+                  <p><strong>Email Address</strong></p>	
+                  <input type="email" placeholder="Ex. Johndoe@gmail.com" class="first-name-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+				  <br><br>
+					<p><strong>Select Departments</strong></p>
+				  <input type="radio" name="department" value="male"> Retail
+				  <input type="radio" name="department" value="female"> Managements
+				  <input type="radio" name="department" value="other"> Other
+
+					<p><strong>Message:</strong></p>	
+                  <textarea type="text" placeholder="Write your message here." class="first-name-input" style="height:200px;" required>
+                  
+                  </textarea>
+					
+					<br>
+                   <input type="submit" placeholder="Submit" class="submit"> 
+                </div>
+            </form>
+    	</div>
+    </div>
+    
+<div class="bottom">
+    <form action="action_page.php">
+      <div class="subscribe">
+        <p><strong>Subscribe to our Newsletter</strong></p>
+      </div>
+      <div class="subscribe" style="background-color:white">
+        <input type="text" placeholder="Email address" name="mail" required>    
+        <input  style="border:2px solid black;background:white;" type="submit" value="Subscribe">
+      </div>
+    </form>
+    
+    <div class="footer">
+		<a href="#"><img src="../images/burberry-logo.png" height="50"></a>
+    <p>&copy All Rights Reserved. Burberry.</p>
+    </div>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navigation-links") {
+        x.className += " responsive";
+    } else {
+        x.className = "navigation-links";
+    }
+}
+    
+    function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</body>
+</html>

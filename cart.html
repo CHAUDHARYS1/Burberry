@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Burberry | NEWS</title>
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navBar">
+        <div id="logo">
+            <a href="index.html"><img src="../images/burberry-logo.png" class="logo" alt="logo" height="50"></a>
+        </div>
+        <div class="navigation-links" id="myTopnav">
+            <a href="Shop.html" class="left">Shop</a>
+
+            <a href="Location.html" class="left">Location</a>
+
+            <a href="News.html" class="left">News</a>
+
+            <a href="cart.html" class="right">Cart(0)</a>
+
+            <a href="About.html" class="right">About</a>
+
+            <a href="contact-register.html" class="right">Contact</a>
+
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+        </div>
+    </div>
+
+    <table align="center">
+        <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Color</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Burberry Limited Edition 'Jack' handbag. </td>
+            <td>1</td>
+            <td>Black</td>
+            <td>$299.99</td>
+        </tr>
+        <tr>
+            <td>Burberry 'Frost' handbag. </td>
+            <td>1</td>
+            <td>Black</td>
+            <td>$399.99</td>
+        </tr>
+        <tr>
+            <td>Burberry 'Snow' handbag. </td>
+            <td>1</td>
+            <td>Black</td>
+            <td>$999.99</td>
+        </tr>
+        <tr>
+            <td>Burberry 'HELLFIRE' handbag. </td>
+            <td>1</td>
+            <td>Black</td>
+            <td>$59.99</td>
+        </tr>
+    </table>
+
+    <table align="center">
+        <tr>
+            <th>Shipping</th>
+            <th>Subtotal</th>
+            <th>Tax & additional Fees</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>$5.00</td>
+            <td>$2800.11</td>
+            <td>$19.98</td>
+            <td>$2993.11</td>
+        </tr>
+
+    </table>
+
+
+
+    <div class="bottom">
+        <form action="action_page.php">
+            <div class="subscribe">
+                <p>Subscribe to our Newsletter</p>
+            </div>
+            <div class="subscribe" style="background-color:white">
+                <input type="text" placeholder="Email address" name="mail" required>
+                <input style="border:2px solid black;background:white;" type="submit" value="Subscribe">
+            </div>
+        </form>
+
+        <div class="footer">
+            <a href="#"><img src="../images/burberry-logo.png" height="50"></a>
+            <p>&copy All Rights Reserved. Burberry.</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 300); // Change image every 2 seconds
+        }
+    </script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "navigation-links") {
+                x.className += " responsive";
+            } else {
+                x.className = "navigation-links";
+            }
+        }
+    </script>
+</body>
+</html>
