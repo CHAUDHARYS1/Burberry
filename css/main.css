@@ -1,0 +1,570 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+margin:0;
+padding:0;
+font-family:arial;
+margin-top:2%;
+}
+body,td,th {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: medium;
+	color: #565656;
+}
+#logo{
+text-align:center;
+}
+#logo img:hover{
+	opacity: 0.5;
+}
+.navigation-links{
+margin-top:-50px;
+margin-left:20%;
+margin-right:20%;
+overflow: hidden;
+}
+.navigation-links a{
+padding:10px 30px 10px 30px;
+text-decoration:none;
+color:#535353;
+ display: block;
+
+}
+.navigation-links a:hover{
+color:#000000;
+text-decoration:underline;
+	opacity: 0.5;
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top:2%;
+}
+
+.flex-container > div {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+
+}
+.flex-container-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-2 > div {
+  width: 460px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.flex-container-3 {
+  display: flex;
+  justify-content: center;
+	
+}
+
+.flex-container-3 > div {
+  width:940px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.flex-container div:hover {
+	opacity:.9;
+	
+}.flex-container-2 div:hover {
+	opacity:.9;
+}
+.flex-container-3 div:hover {
+	opacity:.9;
+}
+.footer{
+	text-align:center;
+}
+.footer img{
+	margin:1%;
+}
+form{
+	text-align:center;
+}
+form input{
+	padding:.5%;
+}
+.subscribe p{
+	color:#424242;
+}
+.top-left{
+	position:absolute;
+	top:8px;
+	left:16px;
+	color:#ffffff;
+	font-size:18px;
+	font-weight:bold;
+	opacity:.5;
+}
+.top-left:hover{
+	color:white;
+}
+.container{
+	position:relative;
+	text-align:center;
+	color:white;
+	font-family:arial;
+	font-style:italic;
+	}
+/* THANK YOU PAGE HTML*/
+.social-media{
+	height:40px;
+	width:auto;
+	padding:1%;
+}
+@media screen and (max-width: 800px) {
+  .navigation-links a:not(:first-child) {
+	  display: none;
+	}
+  .navigation-links a.icon {
+    float: right;
+    display: block;
+	
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navigation-links.responsive {
+	  position: relative;
+	  
+	}
+  .topnav.responsive .icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  .navigation-links.responsive a {
+    float: none;
+    display: flex;
+    text-align: center;
+  }
+}
+.navigation-links .icon {
+  display: none;
+
+}
+
+
+
+/* INDEX CSS */
+
+/* ABOUT CSS */
+
+
+.name {
+    color: #000000;
+}
+
+.position {
+    margin-top: -15px;
+    opacity: .5;
+}
+
+.details-1 {
+    opacity: .9;
+    cursor: pointer;
+}
+
+.skills-hobbies {
+    margin-top: 20px;
+}
+
+.icons-flexbox {
+    display: flex;
+}
+
+.card-border {
+    border: 2px solid #F4F4F4;
+    padding: 10%;
+    margin: 2%;
+}
+
+.card-border:hover {
+    transition: all .1s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.icons-flexbox .icons {
+    padding: 5px 1px 5px 1px;
+    display: block;
+    margin: 0 auto;
+}
+
+.icons-flexbox {
+    border: 2px dashed #585858;
+    border-radius: 15px;
+}
+
+.icons img {
+    cursor: pointer;
+}
+
+.icons img:hover {
+    opacity: .5;
+}
+
+.tool-tip-text {
+    visibility: hidden;
+    position: absolute;
+    margin-top: -1.5%;
+    font-size: 12px;
+
+}
+
+.icons:hover .tool-tip-text {
+    visibility: visible;
+    opacity: .5;
+
+}
+
+.section-about {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.our-company {
+    text-align: center;
+    border: 2px solid #F4F4F4;
+    padding: 10%;
+    margin: 2%;
+}
+
+.our-company-border {
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+.our-company:hover {
+    transition: all .1s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.our-company h2 {
+    background: #FBBFC0;
+    padding: 2%;
+    color: white;
+
+}
+
+.our-company p {
+    color: #8E8E8E;
+
+}
+
+.our-company p:hover {
+    opacity: .5;
+}
+
+.h2 {
+    font-size: 72px;
+    color: white;
+}
+
+/* END ABOUT CSS */
+
+/* CART CSS */
+.whole-thang{
+	display: flex;
+}
+.cartwhole{
+	padding: 1%;
+	background: #F4F4F4;
+	width: 1000px;
+	height: 500px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.fourwords{
+	display: flex;
+}
+.description{
+	padding: 10px 100px 10px 100px;
+}
+.description p{
+		text-align: center;
+}
+table{
+	text-align: center;
+	margin-top: 5%;
+}
+table, th, td{
+	border: 2px solid #BCBCBC;
+	border-collapse: collapse;
+}
+th, td{
+	padding: 15px;
+}
+
+/* END CART CSS */
+
+
+
+
+/* CONTACT REGISTER CSS */
+.first-name-input{
+	padding:2%;
+	width:80%;
+	
+}
+.submit{	
+	border:2px solid black;
+	background:white;
+	width:15%;
+	margin-top:5%;
+	text-align: center;
+	padding: 1%;
+	cursor: pointer;
+	}
+.submit:hover{
+	background: #FF9C9E;
+	border: 2px solid  #E7E7E7;
+
+}
+.first-name{
+	text-align:left;	
+	padding:1%;
+}
+.row {
+	display:flex;
+	justify-content:center;
+}
+input{
+	padding:15px;
+}
+#txt{
+	font-weight: bolder;
+	text-align: center;
+	font-size: 70px;
+	margin-top: -1%;
+	color:#FF9C9E;
+}
+.contest-ends-in{
+	text-align: center;
+	margin-top: 2%
+}
+.vl {
+    border-left: 2px solid #DFDFDF;
+    height: 400px;
+	margin-top: 13%;
+	margin-right: 5%;
+}
+
+/* END CONTACT REGISTER CSS */
+
+
+/* END LOCATION REGISTER CSS */
+
+.location-header{
+	color: #FFA0A2;
+	font-size: 3em;
+	text-align: center;
+}
+.mid-location div{
+	
+}
+.location-1 h2{
+	text-align: center;
+	
+	
+}
+.location-1 p{
+	margin-left: 40%;
+}
+.see-direction{
+	text-align: center;
+	margin-left: 15%;
+	
+}
+.see-direction a{
+	color: #FFA0A2;
+	text-decoration: none;
+}
+.see-direction a:hover{
+	opacity: .5;
+}
+
+/* END LOCATION CSS */
+
+/* START NEWS CSS*/
+
+
+.news{
+	margin-top: 5%;
+}
+.news-border{
+	border: 2px solid #616161;
+	padding: 2%;
+	width: 500px;
+	display: block;
+	margin: 0 auto;	
+	text-align: center;
+}
+.news-logo{
+	margin-top: 10%;
+}
+.news-fonts .news-company-font{
+	font-family: times new roman;
+}
+.news-fonts p{
+	margin-top: -3%;
+}
+.auther{
+	margin-top: -2%;
+	text-align: center;
+
+}
+.date{
+	text-align: right;
+	margin-top: -2%;
+}
+.our-contest h1{
+	font-size: 72px;
+	color: #FFA2A4;
+	text-align: center
+}
+.our-contest p{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.mySlides {display:none;}
+.w3-content .w3-section{
+	text-align: center;
+	
+}
+.eligability h3{
+	
+}
+.eligability p{
+	font-size: 16px;
+}
+.eligability ol{
+	font-size: 16px;
+	font-family: arial;
+	font-weight: normal;
+	margin-left: 5%;
+}
+.eligability ol li{
+	padding: 10%;
+}
+.eligability ul{
+	font-size: 16px;
+	font-family: arial;
+	font-weight: normal;
+	margin-left: 5%;
+}
+.eligability li{
+	padding: 10px;
+	text-align: left;
+}
+
+
+/* END NEWS CSS*/
+
+
+/* START SHOP CSS */
+.graphic-header{
+	color: #FFA0A2;
+	font-size: 50px;
+	text-align: left;
+	margin-left: 20%;
+
+}
+.graphic-header:hover{
+	transition: all 1s ease;
+	color: #FFB2B3;
+	
+}
+
+
+.graphic {
+  display: flex;
+  justify-content: center;
+	margin-top: -.5%;
+}
+
+.graphic > div {
+  margin: 5px;
+width: 250px;
+}
+.graphic > div:hover{
+	opacity: .5;
+}
+
+.fancy {
+  display: flex;
+  justify-content: center;
+	margin-top: 2%;
+}
+
+.fancy > div {
+  margin: 5px;
+width: 500px;
+}
+.fancy > div:hover{
+	opacity: .5;
+}
+
+.comfort {
+  display: flex;
+  justify-content: center;
+	margin-top: 2%;
+}
+
+.comfort > div {
+  margin: 5px;
+width: 340px;
+}
+.comfort > div:hover{
+	opacity: .5;
+}
+
+.banner {
+	text-align: center;
+	margin-top: 5%;
+}
+.banner img{
+	width: 60%;
+}
+.banner p{
+	
+}
+.bottom{
+	margin-top:  5%;
+}
+
+
+/* END SHOP CSS */
+
+
+/* START THANK YOU  CSS */
+.thank-you{
+	text-align:center;
+	margin-top:5%;
+}
+.contest{
+	text-align:center
+}
+/* END THANK YOU  CSS */
+
+
