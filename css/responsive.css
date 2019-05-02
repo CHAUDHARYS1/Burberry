@@ -1,0 +1,520 @@
+/* CSS */
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+  body{
+margin:0;
+padding:0;
+margin-top:2%;
+}
+.navigation-links{
+margin-top:0px;
+margin-left:0%;
+margin-right:0%;
+}
+.navigation-links a{
+padding:10px 30px 10px 30px;
+text-decoration:none;
+color:#535353;
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}
+.flex-container {
+  margin-top:5%;
+}
+.flex-container > div {
+  width:100%;
+  margin: 0px;
+}
+.flex-container-2 > div {
+  width:100%;
+  margin: 0px;
+}
+.flex-container-3 > div {
+  width:100%;
+  margin: 0px;
+  margin-top:0%;
+}
+.footer img{
+	margin:2%;
+}
+form input{
+	padding:1%;
+}
+  .first-name-input{
+	width:80%;
+	display: block;
+	margin: 0 auto;
+}
+.first-name{
+	margin-left:0%; 
+}
+.row {
+	}
+.contest-ends-in{
+	text-align: center;
+	margin-top: 2%
+}
+.vl {
+	margin-top: 22%;
+}
+.submit{	
+	border:2px solid black;
+	width:25%;
+	margin-top:10%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	}
+}
+.banner img{
+	width: 60%;
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+
+  body{
+margin:0;
+padding:0;
+margin-top:2%;
+}
+.navigation-links{
+margin-top:0px;
+margin-left:0%;
+margin-right:0%;
+}
+.navigation-links a{
+padding:10px 20px 10px 20px;
+text-decoration:none;
+color:#535353;
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}
+.flex-container {
+  margin-top:5%;
+}
+.flex-container > div {
+  width:100%;
+  margin: 0px;
+}
+.flex-container-2 > div {
+  width:100%;
+  margin: 0px;
+}
+.flex-container-3 > div {
+  width:100%;
+  margin: 0px;
+  margin-top:0%;
+}
+.footer img{
+	margin:2%;
+}
+form input{
+	padding:1%;
+}
+		/*For Contact-Register*/
+.first-name-input{
+	width:80%;
+	display: block;
+	margin: 0 auto;
+}
+.first-name{
+	margin-left:0%; 
+}
+.row {
+	}
+.contest-ends-in{
+	text-align: center;
+	margin-top: 2%
+}
+.vl {
+	margin-top: 22%;
+}
+.submit{	
+	border:2px solid black;
+	width:25%;
+	margin-top:10%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	}
+	/*End For Contact-Register*/
+	/*location */
+	.location-header{
+	color: #FFA0A2;
+
+	text-align: center;
+}
+.mid-location div{
+	
+}
+.location-1 h2{
+	text-align: center;
+	
+	
+}
+.location-1 p{
+	margin-left: 10%;
+}
+.see-direction{
+	text-align: center;
+	margin-left: 65%;
+	
+}
+.see-direction a{
+	color: #FFA0A2;
+	text-decoration: none;
+}
+	/*End of Location*/
+		/*Began of About*/
+
+.section-about{
+	display: flex;
+	flex-flow: wrap;
+	
+	}
+	.card{
+		margin: 0;
+		margin-left:0%;
+		margin-right: 0%;
+	}
+/*End of About*/
+.flex-container {
+  margin-top:5%;
+	
+}
+	
+.flex-container > div {
+  width:100%;
+  margin: 10px;
+}
+.flex-container-2 > div {
+  width:100%;
+  margin: 10px;
+}
+
+.flex-container-3 > div {
+  width:100%;
+  margin: 0px;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+/*location */
+	.location-header{
+	color: #FFA0A2;
+	font-size: 30px;
+	text-align: center;
+}
+
+.location-1 h2{
+	text-align: center;
+	
+	
+}
+.location-1 p{
+	margin-left: 10%;
+}
+.see-direction{
+	text-align: center;
+	margin-left: 65%;
+	
+}
+.see-direction a{
+	color: #FFA0A2;
+	text-decoration: none;
+}
+	/*End of Location*/
+  /*Shop*/
+.graphic-header{
+	font-size: 40px;
+	text-align: center;
+	margin-left: 0%;
+}
+.banner {
+	text-align: center;
+	margin-top: 5%;
+}
+.banner img{
+	width: 100%;
+}
+	/*End of Shop*/
+	/*Began of About*/
+
+.section-about{
+	display: flex;
+	flex-flow: wrap;
+	
+	}
+	.card{
+		margin: 0;
+		margin-left:0%;
+		margin-right: 0%;
+	}
+/*End of About*/
+	
+
+}
+
+/* 
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 680px) {
+  
+
+  body{
+margin:0;
+padding:0;
+margin-top:2%;
+}
+
+.navigation-links{
+margin-top:0px;
+margin-left:0%;
+margin-right:0%;
+}
+.navigation-links a{
+padding:10px 20px 10px 20px;
+text-decoration:none;
+color:#535353;
+}
+.left{
+float:left;
+}
+.right{
+float:none;
+}
+
+.flex-container {
+  margin-top:5%;
+	flex-direction: column;
+	
+}
+	
+.flex-container > div {
+  width:100%;
+  margin: 0px;
+}
+.flex-container-2 > div {
+  width:100%;
+  margin: 5px;
+}
+
+.flex-container-3 > div {
+  width:100%;
+  margin: 0px;
+}
+.footer img{
+	margin:5%;
+}
+form input{
+	padding:2%;
+}
+	/*For Contact-Register*/
+.first-name-input{
+	width:80%;
+	display: block;
+	margin: 0 auto;
+}
+.first-name{
+	margin-left:2%; 
+}
+.row {
+	flex-direction: column;
+}
+.contest-ends-in{
+	text-align: center;
+	margin-top: 2%
+}
+.vl {
+    display: none;
+}
+.submit{	
+	border:2px solid black;
+	width:35%;
+	margin-top:10%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	}
+	/*End For Contact-Register*/
+	
+	/*Thank you */
+	.thank-you{
+	text-align:center;
+	margin-top:5%;
+}
+	.contest{
+	text-align:center
+}
+	.bottom{
+		margin-top: 25%;
+	}
+	
+/*location */
+	.location-header{
+	color: #FFA0A2;
+	font-size: 30px;
+	text-align: center;
+}
+.mid-location div{
+	
+}
+.location-1 h2{
+	text-align: center;
+	
+	
+}
+.location-1 p{
+	margin-left: 10%;
+}
+.see-direction{
+	text-align: center;
+	margin-left: 65%;
+	
+}
+.see-direction a{
+	color: #FFA0A2;
+	text-decoration: none;
+}
+/*Shop*/
+	.graphic-header{
+	font-size: 40px;
+	text-align: center;
+	margin-left: 0%;
+}
+.graphic {
+  display: flex;
+  justify-content: center;
+	flex-direction: column;
+}
+
+.graphic > div {
+  margin: 3px;
+width: 100%;
+}
+.banner {
+	text-align: center;
+	margin-top: 0%;
+}
+.banner img{
+	width: 100%;
+}
+.bottom{
+	margin-top:  5%;
+}
+.fancy {
+	margin-top: 0%;
+	flex-direction: column;
+}
+
+.fancy > div {
+  margin: 5px;
+width: 100%;
+}
+
+.comfort {
+  display: flex;
+  justify-content: center;
+	margin-top: 2%;
+flex-direction: column;
+}
+.comfort > div {
+  margin: 5px;
+width: 100%;
+}
+/*End of Shop*/
+/*Began of About*/
+	
+
+
+
+
+.skills-hobbies{
+	margin-top: 20px;
+}
+.icons-flexbox{
+	display: flex;
+}
+.card-border{
+	border: 2px solid black;
+
+
+	margin: 2%;
+}
+.icons-flexbox .icons{
+	padding:5px 1px 5px 1px;
+	display: block;
+	margin: 0 auto;
+}
+
+.tool-tip-text{
+	visibility: hidden;
+	position: absolute;
+	margin-top: -1.5%;
+	font-size: 12px;
+
+}
+.icons:hover .tool-tip-text{
+	visibility: visible;
+	opacity: .5;
+
+}
+.section-about{
+	display: flex;
+	flex-direction: column;
+	
+	}
+.card{
+	margin: 0;
+	margin-left: -35%;
+	margin-right: -35%;
+	}
+
+.our-company-border{
+	margin-left: 0%;
+	margin-right: 0%;	
+}
+
+.our-company h2{
+	background:#FBBFC0;
+	padding: 0%;
+	color: white;
+
+}
+.our-company p{
+	color: #8E8E8E;
+
+}
+.h2{
+	font-size: 42px;
+	color: white;
+}
+/*End of About*/
+
+}
